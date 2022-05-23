@@ -1,6 +1,4 @@
 public class AccountUserTriggerHandler {
-
-
     public static void afterInsert(list<user> nuser ,map<id,user> oldUser)
     {
         set<id> nSet =new set<id>();
